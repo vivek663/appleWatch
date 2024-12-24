@@ -1,0 +1,79 @@
+body{
+    overflow: hidden;
+}
+.homeLogo{
+    height: 20px;
+    width: 90px;
+}
+.HeaderSection{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 33px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CollectionBtn{
+    height: 30px;
+    width: 200px;
+    color: black;
+    border-radius: 0px;
+    border-style: none;
+    background-color: transparent;
+    font-size: 17.5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.saveBtn{
+    height: 35px;
+    width: 60px;
+    background-color: #0071E3;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-size: 14px;
+}
+
+.LogoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.popup {
+    margin-top: 65px;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.ListContainer{
+    list-style: none;
+    margin-top: 0px;
+    padding: 0px;
+}
+li{
+    margin-top: 18px;
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+hr{
+    width: 80%;
+    border-color: #f8f0f0;
+}

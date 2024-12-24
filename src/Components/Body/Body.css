@@ -1,0 +1,43 @@
+.watchImage{
+    width:300px;
+    height: 400px;
+}
+.imageSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.sideViewBtn{
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 0px;
+    border-style: none;
+    text-decoration: underline;
+    color: #0066cc;
+    margin-bottom: 12px;
+}
+h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: #6e6e73;
+    font-weight: 500;
+}
+
+h1{
+    margin-top: 0px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #1d1d1f;
+}
+
+.bodyContainer{
+    font-family: Helvetica, sans-serif;
+}
+.price{
+    font-size: 13px;
+}
